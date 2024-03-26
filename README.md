@@ -1,1 +1,1 @@
-# MD simulation scripts and Analysis
+# Scripts for MD simulation and Analysis in OpenMM
