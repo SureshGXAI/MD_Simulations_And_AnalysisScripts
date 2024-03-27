@@ -1,6 +1,7 @@
 from Bio import PDB
-
-pdb = "8fza_preQ0-complex.pdb"
+import os, sys
+inpfile = sys.argv[1]
+pdb = inpfile + ".pdb"
 name = pdb[:3]
 
 p = PDB.PDBParser()
